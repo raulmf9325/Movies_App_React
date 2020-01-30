@@ -13,7 +13,7 @@ class App extends Component {
 
   // fetch data from endpoint using fetch
   fetchMovie(title) {
-    console.log('up here')
+    
     if (title === "") {
       this.setState({
         rows: []
